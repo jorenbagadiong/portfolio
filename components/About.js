@@ -28,11 +28,8 @@ export default function About() {
             <div className="mt-[20px]">
               <h3 className="h2">I’m good in</h3>
               {goodIn.map((item, index) => (
-                <div>
-                  <span
-                    key={index}
-                    className="gradientText text-[18px] font-bold w-[200px]"
-                  >
+                <div key={index}>
+                  <span className="gradientText text-[18px] font-bold w-[200px]">
                     <i className="ri-star-line"></i> {item}
                   </span>
                 </div>
