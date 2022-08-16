@@ -33,7 +33,7 @@ export default function About() {
                     key={index}
                     className="gradientText text-[18px] font-bold w-[200px]"
                   >
-                    <i class="ri-star-line"></i> {item}
+                    <i className="ri-star-line"></i> {item}
                   </span>
                 </div>
               ))}
