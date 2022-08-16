@@ -26,6 +26,10 @@
     @apply text-[2rem] font-bold;
   }
 
+  .gradient {
+    @apply bg-gradient-to-r from-purple to-skyblue;
+  }
+
   .gradientText {
     @apply bg-gradient-to-r from-purple to-skyblue text-transparent bg-clip-text;
   }

@@ -7,6 +7,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <div className="h-[1000px]"></div>
     </div>
   )
 }
