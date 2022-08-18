@@ -7,11 +7,17 @@ import aboutImg from "../public/assets/images/About.svg"
 
 export default function About() {
   return (
-    <section id="about" className="my-[5rem] border-2">
+    <section id="about" className="my-[5rem] border-2 border-transparent">
       <div className="container mx-auto">
         <div className="flex align-center justify-between mx-auto">
-          <div data-aos="fade-right" data-aos-offset="400">
-            <Image src={aboutImg} width="700" height="700" />
+          <div>
+            <Image
+              src={aboutImg}
+              width="700"
+              height="700"
+              data-aos="fade-right"
+              data-aos-offset="400"
+            />
           </div>
           <div
             className="w-[500px] my-auto"
