@@ -7,7 +7,7 @@ import aboutImg from "../public/assets/images/About.svg"
 
 export default function About() {
   return (
-    <section id="about" className="mt-[50px]">
+    <section id="about" className="my-[5rem] border-2">
       <div className="container mx-auto">
         <div className="flex align-center justify-between mx-auto">
           <div data-aos="fade-right" data-aos-offset="400">

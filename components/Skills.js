@@ -5,22 +5,24 @@ import skillImg from "../public/assets/images/Skills.svg"
 
 export default function Skills() {
   return (
-    <section id="skills" className="mb-[5rem]">
-      <div className="container m-auto mt-[5rem]">
+    <section id="skills" className="my-[5rem]">
+      <div className="container mx-auto mt-[50px]">
         <div>
-          <Title title="Skills" />
+          <Title title="Skills" className="p-[50px]" />
         </div>
-        <div className="container mx-auto mt-[1rem]">
+        <div className="container my-auto mt-[-50px]">
           <div
             className="flex align-center justify-between"
             data-aos="fade-up"
             data-aos-offset="550"
           >
-            <div className="grid grid-cols-5 w-[800px]">
-              <IconList />
+            <div className="m-auto">
+              <div className="grid grid-cols-5 mt-[-20px]">
+                <IconList />
+              </div>
             </div>
             <div
-              className="flex items-center justify-center"
+              className="flex items-center justify-center mr-[-30px]"
               data-aos="fade-down"
               data-aos-offset="300"
             >
