@@ -14,6 +14,29 @@
     scroll-behavior: smooth;
   }
 
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: #fff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      180deg,
+      #6721ff 0%,
+      #684cf5 44.01%,
+      #00c1ff 100%
+    );
+    cursor: pointer;
+  }
+
+  input {
+    @apply w-full p-2 rounded-[10px] border-2 border-gray placeholder:text-gray placeholder:font-bold; 
+  }
+
+  textarea {
+    @apply w-full p-2 rounded-[10px] border-2 border-gray placeholder:text-gray placeholder:font-bold;
+  }
+
   .h1 {
     @apply text-[5rem] font-bold;
   }

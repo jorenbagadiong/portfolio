@@ -22,8 +22,8 @@ export default function Projects() {
                   <h2 className="h2">{title}</h2>
                   <Image src={image} width="400" height="300" />
                   <div className="flex justify-center gap-x-[20px]">
-                    <Button name="Launch" path={path} />
-                    <Button name="Source" path={code} />
+                    <Button name="Launch" path={path} newTab={true} />
+                    <Button name="Source" path={code} newTab={true} />
                   </div>
                 </div>
               </div>

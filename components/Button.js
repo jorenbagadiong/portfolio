@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Button({ name, path, width, height }) {
+export default function Button({ name, path, width, height, newTab }) {
   const outerWidth = width
   const innerWidth = width - 10
 
@@ -9,7 +9,7 @@ export default function Button({ name, path, width, height }) {
 
   return (
     <Link href={path}>
-      <a target="_blank">
+      <a target={`${newTab ? "_blank" : ""}`}>
         <div
           className={`transition-all duration-200 p-[5px] ${
             width ? `w-[${outerWidth}px]` : ""
