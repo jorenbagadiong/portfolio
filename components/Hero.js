@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import homeImg from "../public/assets/images/Home.svg"
+import Button from "./Button"
 
 export default function Hero() {
   return (
@@ -22,15 +23,7 @@ export default function Hero() {
               <button type="button" className="gradientButton">
                 Download CV
               </button>
-              <Link href="#contact">
-                <div className="transition-all duration-200 p-[5px] w-[200px] bg-gradient-to-r from-purple to-skyblue rounded-[10px] cursor-pointer hover:drop-shadow-lg ">
-                  <div className="p-[5px] w-[190px] bg-white rounded-[5px] text-center cursor-pointer">
-                    <span className="font-bold text-[20px] cursor-pointer gradientText">
-                      Contact Me
-                    </span>
-                  </div>
-                </div>
-              </Link>
+              <Button name="Contact Me" path="#contact" width={200} height={200} />
             </div>
           </div>
           <div data-aos="fade-left" data-aos-offset="300">

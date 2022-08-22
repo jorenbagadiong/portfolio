@@ -86,3 +86,36 @@ export const skills = [
     src: "/assets/images/Ubuntu.svg",
   },
 ]
+
+export const projects = [
+  {
+    title: "Project 1",
+    image: "/assets/images/project1.svg",
+    path: "https://www.google.com/",
+    code: "https://www.youtube.com/",
+  },
+  {
+    title: "Project 2",
+    image: "/assets/images/project2.svg",
+    path: "https://www.google.com/",
+    code: "https://www.youtube.com/",
+  },
+  {
+    title: "Project 3",
+    image: "/assets/images/project3.svg",
+    path: "https://www.google.com/",
+    code: "https://www.youtube.com/",
+  },
+  {
+    title: "Project 1",
+    image: "/assets/images/project1.svg",
+    path: "https://www.google.com/",
+    code: "https://www.youtube.com/",
+  },
+  {
+    title: "Project 2",
+    image: "/assets/images/project2.svg",
+    path: "https://www.google.com/",
+    code: "https://www.youtube.com/",
+  },
+]

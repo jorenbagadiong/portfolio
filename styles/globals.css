@@ -46,7 +46,11 @@
     @apply transition-all duration-500 cursor-pointer text-[36px] bg-gradient-to-r from-purple to-skyblue hover:text-transparent bg-clip-text;
   }
 
+  .titleLine {
+    @apply w-[40px] h-[5px] bg-gradient-to-r from-purple to-skyblue;
+  }
+
   .divider {
-    @apply bg-purple w-[40px] h-[5px] bg-gradient-to-r from-purple to-skyblue;
+    @apply w-[auto] h-[5px] bg-gradient-to-r from-purple to-skyblue;
   }
 }
