@@ -20,10 +20,3 @@ export const links = [
     name: "Contact",
   },
 ]
-
-export const iconLinks = [
-  {
-    path: "",
-    icon: "",
-  }
-]

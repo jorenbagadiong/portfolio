@@ -1,3 +1,21 @@
+export const iconLinks = [
+  {
+    name: "gitbub",
+    path: "https://github.com/jorenbagadiong",
+    icon: "ri-github-line",
+  },
+  {
+    name: "linkedin",
+    path: "https://www.linkedin.com/in/joren-bagadiong-8943a3213/",
+    icon: "ri-linkedin-box-line",
+  },
+  // {
+  //   name: "facebook",
+  //   path: "https://www.linkedin.com/in/joren-bagadiong-8943a3213/",
+  //   icon: "ri-facebook-box-line",
+  // },
+]
+
 export const goodIn = [
   "Problem Solving",
   "Communication",

@@ -1,11 +1,16 @@
-export { iconLinks } from "routes"
+import Link from "next/link"
+import { iconLinks } from "data"
 
 export default function IconLink() {
   return (
     <>
-      <i className="ri-github-line iconLink"></i>
-      <i className="ri-linkedin-box-line iconLink"></i>
-      <i className="ri-facebook-box-line iconLink"></i>
+      {iconLinks.map(({ path, icon, name }, index) => (
+        <Link href={path} key={index}>
+          <a target="_blank">
+            <i className={`${icon} iconLink`} name={name}></i>
+          </a>
+        </Link>
+      ))}
     </>
   )
 }
