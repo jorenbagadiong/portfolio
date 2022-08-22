@@ -1,4 +1,4 @@
-const routes = [
+export const links = [
   {
     path: "/",
     name: "Home",
@@ -21,4 +21,9 @@ const routes = [
   },
 ]
 
-export default routes
+export const iconLinks = [
+  {
+    path: "",
+    icon: "",
+  }
+]

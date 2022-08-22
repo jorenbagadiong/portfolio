@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { skills } from "data"
 
-export default function IconList() {
+export default function SkillList() {
   return (
     <>
       {skills.map(({ name, src }, index) => (

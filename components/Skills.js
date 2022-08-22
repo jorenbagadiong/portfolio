@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Title, IconList } from "components"
+import { Title, SkillList } from "components"
 
 import skillImg from "../public/assets/images/Skills.svg"
 
@@ -18,7 +18,7 @@ export default function Skills() {
           >
             <div className="m-auto">
               <div className="grid grid-cols-5 mt-[-20px]">
-                <IconList />
+                <SkillList />
               </div>
             </div>
             <div
