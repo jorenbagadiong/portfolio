@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 import { Title, SkillList } from "components"
 
 import skillImg from "../public/assets/images/Skills.svg"

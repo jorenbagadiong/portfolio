@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 import { Title } from "components"
 
 export default function Contact() {
@@ -8,13 +9,13 @@ export default function Contact() {
         <div>
           <Title title="Contact" className="p-[50px]" />
         </div>
-        <div className="container my-auto mt-[30px]">
+        <div className="container my-auto mt-[10px]">
           <div className="flex items-cemter align-center justify-between">
-            <div className="">
+            <div className="my-auto">
               <Image
                 src="/assets/images/Contact.svg"
-                width="700"
-                height="700"
+                width="600"
+                height="600"
               />
             </div>
             <div className="p-10 m-auto">
@@ -27,7 +28,7 @@ export default function Contact() {
                 <h2 className="h2">+63 915 395 4186</h2>
               </div>
               <div className="flex gap-x-[1rem]">
-                <i class="ri-map-pin-line h2"></i>
+                <i className="ri-map-pin-line h2"></i>
                 <h2 className="h2">Tanza, Cavite, Philippines</h2>
               </div>
               <div className="flex flex-col gap-y-[10px] mt-[20px]">

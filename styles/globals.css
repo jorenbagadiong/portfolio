@@ -27,6 +27,7 @@
       #00c1ff 100%
     );
     cursor: pointer;
+    border-radius: 5px;
   }
 
   input {

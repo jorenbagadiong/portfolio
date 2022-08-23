@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { Title } from "components"
 
+import { Title } from "components"
 import { goodIn } from "data"
 
 import aboutImg from "../public/assets/images/About.svg"
