@@ -23,7 +23,7 @@ export default function Contact() {
                 <h2 className="h2">joren.bagadiong14@gmail.com</h2>
               </div>
               <div className="flex gap-x-[1rem]">
-                <i class="ri-phone-line h2"></i>
+                <i className="ri-phone-line h2"></i>
                 <h2 className="h2">+63 915 395 4186</h2>
               </div>
               <div className="flex gap-x-[1rem]">
