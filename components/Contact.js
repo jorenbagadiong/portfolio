@@ -1,4 +1,5 @@
 import React, { useRef } from "react"
+import emailjs from "emailjs-com"
 import Image from "next/image"
 
 import { Title } from "components"
@@ -13,11 +14,24 @@ export default function Contact() {
       if (!field.name) return
       formData[field.name] = field.value
     })
-    fetch("/api/sendEmail", {
-      method: "post",
-      body: JSON.stringify(formData),
-    })
-    console.log(formData)
+
+    emailjs
+      .sendForm(
+        process.env.EMAIL_JS_SERVICE,
+        process.env.EMAIL_JS_TEMPLATE,
+        form.current,
+        process.env.EMAIL_JS_USER
+      )
+      .then(
+        () => {
+          alert("Message successfully sent!")
+          window.location.reload(false)
+        },
+        (e) => {
+          console.log(e)
+          alert("Failed to send the message, please try again")
+        }
+      )
   }
 
   return (
