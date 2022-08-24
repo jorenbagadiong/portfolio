@@ -1,6 +1,7 @@
 import React, { useRef } from "react"
-import emailjs from "emailjs-com"
 import Image from "next/image"
+import emailjs from "emailjs-com"
+import Notiflix from 'notiflix';
 
 import { Title } from "components"
 
@@ -24,12 +25,10 @@ export default function Contact() {
       )
       .then(
         () => {
-          alert("Message successfully sent!")
-          window.location.reload(false)
+          Notiflix.Notify.success('Successfully Email Send');
         },
         (e) => {
-          console.log(e)
-          alert("Failed to send the message, please try again")
+          Notiflix.Notify.failure('Failed to send email');
         }
       )
   }

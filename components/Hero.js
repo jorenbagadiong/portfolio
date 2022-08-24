@@ -1,5 +1,7 @@
 import Image from "next/image"
 import axios from "axios"
+import Notiflix from 'notiflix';
+// import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 import { Button } from "components"
 
@@ -16,6 +18,7 @@ export default function Hero() {
       link.setAttribute("download", "Joren Bagadiong.docx") //or any other extension
       document.body.appendChild(link)
       link.click()
+      Notiflix.Notify.success('Successfully Downloaded');
     })
   }
 
