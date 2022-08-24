@@ -1,7 +1,6 @@
 import Image from "next/image"
 import axios from "axios"
 import Notiflix from 'notiflix';
-// import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 import { Button } from "components"
 
