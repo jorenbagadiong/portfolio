@@ -12,16 +12,29 @@
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   ::-webkit-scrollbar {
     width: 10px;
+    height: 10px;
     background: #fff;
   }
 
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(
       180deg,
+      #6721ff 0%,
+      #684cf5 44.01%,
+      #00c1ff 100%
+    );
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal {
+    background: linear-gradient(
+      90deg,
       #6721ff 0%,
       #684cf5 44.01%,
       #00c1ff 100%
