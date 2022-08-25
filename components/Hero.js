@@ -7,14 +7,14 @@ import { Button } from "components"
 export default function Hero() {
   const dowloadCV = () => {
     axios({
-      url: "/file/CV.docx",
+      url: "/assets/file/CV.pdf",
       method: "GET",
       responseType: "blob",
     }).then((res) => {
       const url = window.URL.createObjectURL(new Blob([res.data]))
       const link = document.createElement("a")
       link.href = url
-      link.setAttribute("download", "Joren Bagadiong.docx") //or any other extension
+      link.setAttribute("download", "Joren Bagadiong.pdf") //or any other extension
       document.body.appendChild(link)
       link.click()
       Notiflix.Notify.success('Successfully Downloaded');
