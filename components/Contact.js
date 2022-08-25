@@ -1,7 +1,7 @@
 import React, { useRef } from "react"
 import Image from "next/image"
 import emailjs from "emailjs-com"
-import Notiflix from 'notiflix';
+import Notiflix from "notiflix"
 
 import { Title } from "components"
 
@@ -25,10 +25,10 @@ export default function Contact() {
       )
       .then(
         () => {
-          Notiflix.Notify.success('Successfully Email Send');
+          Notiflix.Notify.success("Successfully Email Send")
         },
         (e) => {
-          Notiflix.Notify.failure('Failed to send email');
+          Notiflix.Notify.failure("Failed to send email")
         }
       )
   }
@@ -36,20 +36,20 @@ export default function Contact() {
   return (
     <section id="contact" className="my-[5rem] border-2 border-transparent">
       <div className="container mx-auto mt-[50px]">
-        <div>
+        <div className="p-5 lg:p-0" data-aos="fade-right" data-aos-offset="550">
           <Title title="Contact" className="p-[50px]" />
         </div>
         <div className="container my-auto mt-[10px]">
-          <div className="flex justify-items-center items-center align-center justify-between">
-            <div className="my-auto">
+          <div className="flex flex-col-reverse lg:flex-row items-center align-center justify-between">
+            <div className="my-auto w-full">
               <Image
                 src="/assets/images/Contact.svg"
-                width="600"
-                height="600"
+                width="800"
+                height="800"
               />
             </div>
-            <form ref={form} onSubmit={sendEmail}>
-              <div className="w-[600px] m-auto">
+            <div className="w-full m-auto p-5">
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="flex gap-x-[1rem]">
                   <i className="ri-mail-line h2"></i>
                   <h2 className="h2">joren.bagadiong14@gmail.com</h2>
@@ -76,21 +76,14 @@ export default function Contact() {
                     name="message"
                     placeholder="Message"
                   ></textarea>
-                  <div className="flex justify-end">
-                    {/* <div className="w-[200px] transition-all duration-200 p-[5px] gradient rounded-[10px] cursor-pointer hover:drop-shadow-lg">
-                      <div className="w-[190px] p-[5px] bg-white px-[30px] rounded-[5px] text-center cursor-pointer">
-                        <span className="font-bold text-[20px] cursor-pointer gradientText">
-                          Send Email
-                        </span>
-                      </div>
-                    </div> */}
+                  <div className="flex lg:justify-end">
                     <button type="submit" className="gradientButton">
                       Send Email
                     </button>
                   </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>

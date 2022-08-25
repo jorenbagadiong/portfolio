@@ -6,7 +6,7 @@ export default function SkillList() {
     <>
       {skills.map(({ name, src }, index) => (
         <div
-          className="mx-auto text-center my-[1] p-[10px] mt-1"
+          className="mx-auto text-center my-[1] p-[10px]"
           key={index}
         >
           <div className="gradient p-[5px] w-[110px] h-[110px] rounded-[10px]">

@@ -36,7 +36,7 @@ export default function Hero() {
                 I’m <span className="gradientText">Joren</span>
               </h1>
               <h3 className="h3 mt-[-20px]">Frontend Developer</h3>
-              <div className="flex mt-[30px] gap-x-[20px]">
+              <div className="flex flex-col sm:flex-row mt-[30px] gap-3">
                 <div>
                   <button
                     type="button"
@@ -57,7 +57,11 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-offset="300">
+          <div
+            className="flex items-center align-center justify-center p-5"
+            data-aos="fade-left"
+            data-aos-offset="300"
+          >
             <Image
               alt="home-image"
               src="/assets/images/Home.svg"
