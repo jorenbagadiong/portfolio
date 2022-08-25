@@ -8,17 +8,17 @@ export default function Skills() {
   return (
     <section id="skills" className="my-[5rem] border-2 border-transparent">
       <div className="container mx-auto mt-[50px]">
-        <div data-aos="fade-right" data-aos-offset="550">
+        <div className="p-10 lg:p-0" data-aos="fade-right" data-aos-offset="550">
           <Title title="Skills" className="p-[50px]" />
         </div>
-        <div className="container my-auto mt-[-50px]">
+        <div className="container my-auto lg:mt-[-50px]">
           <div
-            className="flex align-center justify-between"
+            className="flex align-center justify-between flex-col lg:flex-row"
             data-aos="fade-up"
             data-aos-offset="500"
           >
             <div className="m-auto">
-              <div className="grid grid-cols-5 mt-[-20px]">
+              <div className="grid grid-cols-3 lg:grid-cols-5 mt-[-20px]">
                 <SkillList />
               </div>
             </div>
