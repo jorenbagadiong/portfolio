@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section id="skills" className="my-[5rem] border-2 border-transparent">
       <div className="container mx-auto mt-[50px]">
-        <div className="p-5 lg:p-0" data-aos="fade-right" data-aos-offset="550">
+        <div className="p-5 lg:p-0" data-aos="fade-right" data-aos-offset="200">
           <Title title="Skills" className="p-[50px]" />
         </div>
         <div className="container my-auto">
