@@ -22,7 +22,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="hero">
+    <section id="hero" className="my-[5rem] border-2 border-transparent">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row align-center justify-between item-center mx-auto">
           <div

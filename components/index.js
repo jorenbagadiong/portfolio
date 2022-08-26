@@ -1,5 +1,6 @@
 export { default as Header } from "./Header"
 export { default as NavLinks } from "./NavLinks"
+export { default as NavMobile } from "./NavMobile"
 export { default as IconLink } from "./IconLink"
 export { default as Hero } from "./Hero"
 export { default as About } from "./About"

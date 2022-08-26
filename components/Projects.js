@@ -21,7 +21,7 @@ export default function Projects() {
                 <div className="p-[2rem] bg-white rounded-[5px] flex flex-col justify-center">
                   <h2 className="h2">{title}</h2>
                   <Image src={image} width="400" height="300" />
-                  <div className="flex justify-center gap-x-[20px]">
+                  <div className="flex flex-col md:flex-row lg:flex-row justify-center gap-3">
                     <Button name="Launch" path={path} newTab={true} />
                     <Button name="Source" path={code} newTab={true} />
                   </div>

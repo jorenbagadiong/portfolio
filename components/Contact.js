@@ -46,10 +46,17 @@ export default function Contact() {
                 src="/assets/images/Contact.svg"
                 width="800"
                 height="800"
+                data-aos="fade-right"
+                data-aos-offset="400"
               />
             </div>
             <div className="w-full m-auto p-5">
-              <form ref={form} onSubmit={sendEmail}>
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                data-aos="fade-left"
+                data-aos-offset="400"
+              >
                 <div className="flex gap-x-[1rem]">
                   <i className="ri-mail-line h2"></i>
                   <h2 className="h2">joren.bagadiong14@gmail.com</h2>
