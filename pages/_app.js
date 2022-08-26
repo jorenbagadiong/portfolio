@@ -8,8 +8,8 @@ import "../styles/globals.css"
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
-      duration: 2000,
-      delay: 400,
+      duration: 1000,
+      delay: 300,
     })
   })
 
