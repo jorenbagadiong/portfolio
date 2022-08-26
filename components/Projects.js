@@ -7,13 +7,13 @@ export default function Projects() {
   return (
     <section id="projects" className="my-[5rem] border-2 border-transparent">
       <div className="container mx-auto mt-[50px]">
-        <div className="p-5 lg:p-0" data-aos="fade-right" data-aos-offset="550">
+        <div className="p-5 lg:p-0" data-aos="fade-right" data-aos-offset="200">
           <Title title="Projects" className="p-[50px]" />
         </div>
         <div
           className="container m-auto p-5"
           data-aos="fade-up"
-          data-aos-offset="550"
+          data-aos-offset="200"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {projects.map(({ title, image, path, code }, index) => (

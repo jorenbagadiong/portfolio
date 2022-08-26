@@ -88,6 +88,6 @@
   }
 
   .divider {
-    @apply w-[auto] h-[5px] bg-gradient-to-r from-purple to-skyblue;
+    @apply w-[full] h-[5px] bg-gradient-to-r from-purple to-skyblue;
   }
 }

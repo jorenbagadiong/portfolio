@@ -15,7 +15,7 @@ export default function Skills() {
           <div
             className="flex align-center justify-between flex-col lg:flex-row"
             data-aos="fade-up"
-            data-aos-offset="500"
+            data-aos-offset="200"
           >
             <div className="w-full p-5">
               <div className="grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
@@ -25,7 +25,7 @@ export default function Skills() {
             <div
               className="flex items-center align-center justify-center p-5 "
               data-aos="fade-up"
-              data-aos-offset="300"
+              data-aos-offset="200"
             >
               <Image src={skillImg} alt="skills" width="800" height="800" />
             </div>

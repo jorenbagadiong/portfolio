@@ -47,7 +47,7 @@ export default function Contact() {
                 width="800"
                 height="800"
                 data-aos="fade-right"
-                data-aos-offset="400"
+                data-aos-offset="200"
               />
             </div>
             <div className="w-full m-auto p-5">
@@ -55,7 +55,7 @@ export default function Contact() {
                 ref={form}
                 onSubmit={sendEmail}
                 data-aos="fade-left"
-                data-aos-offset="400"
+                data-aos-offset="200"
               >
                 <div className="flex gap-x-[1rem]">
                   <i className="ri-mail-line h2"></i>

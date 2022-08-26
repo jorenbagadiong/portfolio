@@ -22,13 +22,13 @@ export default function Hero() {
   }
 
   return (
-    <section id="hero" className="my-[5rem] border-2 border-transparent">
+    <section id="hero" className="mt-[20px] border-2 border-transparent">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row align-center justify-between item-center mx-auto">
           <div
             className="my-auto ml-[30px] flex-1"
             data-aos="fade-right"
-            data-aos-offset="300"
+            data-aos-offset="200"
           >
             <div>
               <h1 className="h1">Hi,</h1>
@@ -60,13 +60,13 @@ export default function Hero() {
           <div
             className="flex items-center align-center justify-center p-5"
             data-aos="fade-left"
-            data-aos-offset="300"
+            data-aos-offset="200"
           >
             <Image
               alt="home-image"
               src="/assets/images/Home.svg"
-              width="700"
-              height="700"
+              width="600"
+              height="600"
             />
           </div>
         </div>

@@ -4,14 +4,16 @@ export default function Footer() {
   return (
     <footer>
       <div className="container mx-auto">
-        <div className="flex items-center justify-between pb-0">
-          <NavLinks />
-          <div className="flex gap-x-[30px] mr-15">
+        <div className="flex flex-col md:flex-row lg:flex-row text-center items-center justify-between gap-[50px] mt-[50px]">
+          <div className="flex flex-col md:flex-row lg:flex-row ml-15 gap-[50px]">
+            <NavLinks />
+          </div>
+          <div className="flex gap-[30px]">
             <IconLink />
           </div>
         </div>
         <div className="divider" />
-        <div className="text-center mt-[10px] pb-[8rem] pt-0">
+        <div className="text-center mt-[10px] pb-[8rem]">
           <h3 className="text-[1.2rem] font-bold">
             © 2022 - Developed by Joren Bagadiong. All rights reserved.
           </h3>
