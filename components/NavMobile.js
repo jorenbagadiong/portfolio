@@ -13,7 +13,9 @@ const NavMobile = ({ setNavMobile }) => {
       <ul className="text-xl flex flex-col gap-y-8 text-center">
         {links.map((item, index) => (
           <Link href={item.path} key={index}>
-            <span className="link">{item.name}</span>
+            <span className="link" onClick={() => setNavMobile(false)}>
+              {item.name}
+            </span>
           </Link>
         ))}
       </ul>

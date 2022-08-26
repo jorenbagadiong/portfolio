@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="divider" />
-        <div className="text-center mt-[20px] pb-[50px] pt-0">
+        <div className="text-center mt-[10px] pb-[8rem] pt-0">
           <h3 className="text-[1.2rem] font-bold">
             © 2022 - Developed by Joren Bagadiong. All rights reserved.
           </h3>
